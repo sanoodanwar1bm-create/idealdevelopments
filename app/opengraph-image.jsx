@@ -78,7 +78,7 @@ export default async function OgImage() {
             idealconstruction.com.pk
           </div>
           <div style={{ display: "flex", color: "rgba(247,245,240,0.6)" }}>
-            77 Square, Multi-Garden B-17, Islamabad
+            House 723, E Block, Multigardens B-17, Islamabad
           </div>
         </div>
       </div>

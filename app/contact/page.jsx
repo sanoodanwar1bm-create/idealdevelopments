@@ -5,7 +5,7 @@ import ContactContent from "./ContactContent";
 import { ORGANIZATION_ID, WEBSITE_ID, breadcrumbLd, graph, pageMeta, url } from "@lib/seo";
 
 const description =
-  "Talk to IDEAL Developments on WhatsApp, by phone or email. Office at 77 Square, E-block, Multi-Garden B-17, Islamabad. Open Mon–Fri 9AM–6PM, Sat 10AM–4PM.";
+  "Talk to IDEAL Developments on WhatsApp, by phone or email. Office at House 723, E Block, Multigardens B-17, Islamabad. Open Mon–Fri 9AM–6PM, Sat 10AM–4PM.";
 
 export const metadata = pageMeta({
   title: "Contact Us — Free Site Visit & Quote in Islamabad",

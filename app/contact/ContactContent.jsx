@@ -30,7 +30,9 @@ import {
   MAPS_LINK,
   MAP_EMBED,
   PHONE_DISPLAY,
+  PHONE_E164,
   PHONE_TEL,
+  WHATSAPP_CHAT,
   WHATSAPP_LINK,
 } from "@lib/site";
 
@@ -43,7 +45,7 @@ const CHANNELS = [
     key: "whatsapp",
     icon: FaWhatsapp,
     label: "WhatsApp",
-    value: "+92 320 9840974",
+    value: PHONE_DISPLAY,
     note: "Fastest way to reach us. Send your plot details and photos.",
     href: WHATSAPP_LINK,
     action: "Start a chat",
@@ -57,7 +59,7 @@ const CHANNELS = [
     note: "Speak to our team during business hours.",
     href: PHONE_TEL,
     action: "Call now",
-    copy: "+923209840974",
+    copy: PHONE_E164,
   },
   {
     key: "email",
@@ -88,7 +90,7 @@ const STEPS = [
 ];
 
 const SOCIALS = [
-  { icon: FaWhatsapp, url: "https://wa.me/923209840974", name: "WhatsApp" },
+  { icon: FaWhatsapp, url: WHATSAPP_CHAT, name: "WhatsApp" },
   { icon: FaInstagram, url: "https://instagram.com/idealconstructions", name: "Instagram" },
   { icon: FaFacebookF, url: "https://facebook.com/idealconstructions", name: "Facebook" },
   { icon: FaLinkedinIn, url: "https://linkedin.com/company/idealconstructions", name: "LinkedIn" },
@@ -228,11 +230,11 @@ function Office() {
           <FadeUp className="overflow-hidden rounded-[2rem] bg-white p-2 shadow-lift">
             <iframe
               src={MAP_EMBED}
-              title="IDEAL Developments office location, 77 Square, B-17 Islamabad"
+              title="IDEAL Developments office location, House 723, E Block, Multigardens B-17, Islamabad"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
-              className="h-[22rem] w-full rounded-[1.6rem] border-0 sm:h-[26rem]"
+              className="h-full min-h-[22rem] w-full rounded-[1.6rem] border-0 sm:min-h-[26rem]"
             />
           </FadeUp>
 

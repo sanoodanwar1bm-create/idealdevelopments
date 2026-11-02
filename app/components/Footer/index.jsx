@@ -7,7 +7,7 @@ import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Logo from "@components/Logo";
 import services from "@lib/services.json";
-import { ADDRESS, EMAIL, HOURS, PHONE_DISPLAY, PHONE_TEL, WHATSAPP_LINK } from "@lib/site";
+import { ADDRESS, EMAIL, HOURS, PHONE_DISPLAY, PHONE_TEL, WHATSAPP_CHAT, WHATSAPP_LINK } from "@lib/site";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -19,7 +19,7 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: FaWhatsapp, url: "https://wa.me/923209840974", name: "WhatsApp" },
+  { icon: FaWhatsapp, url: WHATSAPP_CHAT, name: "WhatsApp" },
   { icon: FaInstagram, url: "https://instagram.com/idealconstructions", name: "Instagram" },
   { icon: FaFacebookF, url: "https://facebook.com/idealconstructions", name: "Facebook" },
   { icon: FaLinkedinIn, url: "https://linkedin.com/company/idealconstructions", name: "LinkedIn" },
