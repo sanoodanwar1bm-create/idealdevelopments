@@ -1,0 +1,104 @@
+[
+ 
+  {
+    "slug": "modern-5-marla-1",
+    "title": "Modern 5 Marla Home",
+    "description": "A compact and efficient 5 Marla house that embraces modern aesthetics with energy-saving lighting, minimal décor, and multipurpose spaces.",
+    "location": "Islamabad",
+    "images": ["/projects/5marla.jpg"],
+    "duration": "12 months",
+    "size": "5 Marla",
+    "budget": "PKR 1 crore 50 lakh",
+    "design": "Contemporary",
+    "features": ["Roof garden", "Smart lighting", "Compact open kitchen", "Hidden storage"],
+    "premiumMaterials": ["Vinyl flooring", "Custom cabinetry", "Tempered glass railings"],
+    "challengesOvercome": "Maximizing functionality in limited space with custom-built furniture solutions."
+  },
+  {
+    "slug": "modern-5-marla-2",
+    "title": "Modern 5 Marla Residence",
+    "description": "This 5 Marla residence combines style and space-efficiency. Designed with a focus on airflow and natural lighting using sleek, vertical glass facades.",
+    "location": "Islamabad",
+    "images": ["/projects/5marla.png"],
+    "duration": "12 months",
+    "size": "5 Marla",
+    "budget": "PKR 1 crore 50 lakh",
+    "design": "Contemporary",
+    "features": ["Double-height lounge", "Skylights", "Minimalist staircase", "Indoor courtyard"],
+    "premiumMaterials": ["Polished concrete", "Metal frame windows", "Designer fixtures"],
+    "challengesOvercome": "Navigated high-density zoning regulations and introduced creative ventilation solutions."
+  },
+  {
+    "slug": "modern-5-marla-3",
+    "title": "Compact Modern 5 Marla House",
+    "description": "A smartly-designed home with automation and integrated storage, ideal for small families valuing function and elegance.",
+    "location": "Islamabad",
+    "images": ["/projects/5marla(1).jpg"],
+    "duration": "12 months",
+    "size": "5 Marla",
+    "budget": "PKR 1 crore 50 lakh",
+    "design": "Contemporary",
+    "features": ["Smart security", "Energy-efficient HVAC", "Wall-mounted furniture", "Green facade"],
+    "premiumMaterials": ["Engineered wood floors", "High-pressure laminates", "Low-E glass"],
+    "challengesOvercome": "Addressed sunlight issues by redesigning facade orientation for better daylight capture."
+  },
+  {
+    "slug": "modern-7-marla-1",
+    "title": "Modern 7 Marla Family House",
+    "description": "An open-layout modern house with artistic interior design and maximum space usage. Designed for urban families looking for style and comfort.",
+    "location": "Islamabad",
+    "images": ["/projects/7marla.jpg"],
+    "duration": "12 months",
+    "size": "7 Marla",
+    "budget": "PKR 1 crore 80 lakh",
+    "design": "Contemporary",
+    "features": ["Smart locks", "Walk-in closet", "Open-plan kitchen", "Sunroom"],
+    "premiumMaterials": ["Imported tiles", "Steel-framed windows", "LED mood lighting"],
+    "challengesOvercome": "Constructed on a slope, requiring terracing and reinforced retaining walls."
+  },
+
+  {
+    "slug": "modern-7-marla-3",
+    "title": "Sleek 7 Marla Modern House",
+    "description": "A sleek modern house with artistic exterior cladding and seamless indoor-outdoor transition. Perfect for high-end modern living.",
+    "location": "Islamabad",
+    "images": ["/projects/7marlapair.jpg"],
+    "duration": "12 months",
+    "size": "7 Marla",
+    "budget": "PKR 1 crore 80 lakh",
+    "design": "Contemporary",
+    "features": ["Atrium", "Outdoor deck", "Modular kitchen", "Glass partitions"],
+    "premiumMaterials": ["Textured tiles", "Wooden louvers", "Smart climate control"],
+    "challengesOvercome": "Managing water drainage on a narrow plot required custom piping design."
+  },
+  {
+    "slug": "modern-10-marla-1",
+    "title": "Modern 10 Marla House",
+    "description": "A contemporary 10 Marla home featuring minimalistic design, open-plan living spaces, and energy-efficient systems. Designed for urban comfort with smart home integration and premium materials.",
+    "location": "Islamabad",
+    "images": ["/projects/10marla.jpg"],
+    "duration": "12 months",
+    "size": "10 Marla",
+    "budget": "PKR 2 crore 50 lakh",
+    "design": "Contemporary",
+    "features": ["Smart lighting", "Open kitchen", "Home automation", "Landscaped garden"],
+    "premiumMaterials": ["Imported tiles", "Solid wood doors", "Double-glazed windows"],
+    "challengesOvercome": "Tight urban space required custom foundation work and smart space planning."
+  },
+  {
+    "slug": "modern-10-marla-2",
+    "title": "Stylish 10 Marla Residence",
+    "description": "A stylish 10 Marla house combining elegance and technology. Designed with a modern layout, rooftop entertainment area, and automated systems.",
+    "location": "Islamabad",
+    "images": ["/projects/10marla.png"],
+    "duration": "12 months",
+    "size": "10 Marla",
+    "budget": "PKR 2 crore 50 lakh",
+    "design": "Contemporary",
+    "features": ["Rooftop BBQ area", "Smart curtains", "Integrated audio system", "Vertical garden"],
+    "premiumMaterials": ["Quartz countertops", "Flush doors", "UV-protected windows"],
+    "challengesOvercome": "High humidity in the area required moisture-resistant material choices."
+  }
+]
+
+

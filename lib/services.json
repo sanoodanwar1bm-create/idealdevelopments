@@ -1,0 +1,165 @@
+[
+  {
+    "slug": "project-management",
+    "title": "Project Management & Consultancy",
+    "icon": "Building2",
+    "description": "Seamless execution from start to finish, guided by professionalism, transparency, and Islamic values.",
+    "longDescription": "At IDEAL Developments, our Project Management & Consultancy service offers complete 'Design & Build' solutions. We manage your construction journey from initial planning and architecture to execution and final delivery. With a focus on timelines, quality, and client communication, we ensure your vision is built exactly as planned—without stress or surprises.",
+    "faithNote": "“Verily, Allah loves that when anyone of you does a job, he should perfect it.” (Bayhaqi)",
+    "features": [
+      "End-to-end project supervision",
+      "Certified engineers and planners",
+      "Transparent budgeting and timelines",
+      "Regular client updates",
+      "Quality assurance checks"
+    ],
+    "image": "/services/project-management.jpg",
+    "ourProcess": [
+      {
+        "title": "Consultation & Needs Assessment",
+        "description": "Understand your goals, budget, and vision."
+      },
+      {
+        "title": "Planning & Design",
+        "description": "Develop architectural plans, timelines, and cost estimates."
+      },
+      {
+        "title": "Execution & Supervision",
+        "description": "Oversee construction with regular quality checks and updates."
+      },
+      {
+        "title": "Delivery & Handover",
+        "description": "Final inspection and smooth transition of your completed project."
+      }
+    ],
+    "imageAlt": "Engineers reviewing architectural drawings on a construction site in Islamabad"
+  },
+  {
+    "slug": "residential-construction",
+    "title": "Residential Construction",
+    "icon": "Home",
+    "description": "From foundations to finishing, we build homes with sincerity and verified material quality — as if we're building for our own families.",
+    "longDescription": "IDEAL Developments specializes in custom residential construction for 5 Marla, 7 Marla, and larger homes. We take your dream home from an idea to reality — managing every detail from foundation to finishing. Our team ensures top-quality work, certified materials, and elegant results that reflect your style and meet your budget.",
+    "faithNote": "A home built on trust is a blessing in both worlds.",
+    "features": [
+      "Tailor-made home designs",
+      "A+ grade construction materials",
+      "Certified engineers and skilled labor",
+      "Focus on durability and aesthetics",
+      "Timely project delivery"
+    ],
+    "image": "/services/residential-construction.jpg",
+    "ourProcess": [
+      {
+        "title": "Site Visit & Planning",
+        "description": "We assess your plot and discuss layout preferences."
+      },
+      {
+        "title": "Design Finalization",
+        "description": "Architectural plans and elevations prepared for approval."
+      },
+      {
+        "title": "Construction Begins",
+        "description": "We start the build using quality materials and real-time monitoring."
+      },
+      {
+        "title": "Finishing & Handover",
+        "description": "Interior and exterior finishing followed by final inspection and handover."
+      }
+    ],
+    "imageAlt": "Mason laying red bricks with a trowel while building a house wall"
+  },
+  {
+    "slug": "architectural-design",
+    "title": "Architectural & 3D Design",
+    "icon": "Layout",
+    "description": "Visualize before you build — elegant, accurate, and purposeful designs by certified Muslim architects.",
+    "longDescription": "At IDEAL Developments, we offer professional architectural planning and stunning 3D front elevation designs. Our certified architects work closely with you to design functional, modern, and aesthetically pleasing spaces — bringing your vision to life before construction begins.",
+    "faithNote": "Clarity in vision leads to barakah in execution.",
+    "features": [
+      "Certified architectural planning",
+      "Realistic 3D front elevation renders",
+      "Customized layouts based on your needs",
+      "Space optimization and modern styles",
+      "Pre-construction visual clarity"
+    ],
+    "image": "/services/architectural-design.jpg",
+    "ourProcess": [
+      {
+        "title": "Client Consultation",
+        "description": "We understand your space, style, and needs."
+      },
+      {
+        "title": "Design & Drafting",
+        "description": "Layout planning and 3D elevations are developed and reviewed."
+      },
+      {
+        "title": "Final Approval",
+        "description": "Revisions are made based on feedback, and finalized plans are shared."
+      }
+    ],
+    "imageAlt": "Architectural floor plans with drafting pencils and a scale ruler"
+  },
+  {
+    "slug": "renovation-remodeling",
+    "title": "Renovation & Remodeling",
+    "icon": "RefreshCcw",
+    "description": "Give your property a new life with modern upgrades, durable finishes, and peaceful aesthetics.",
+    "longDescription": "IDEAL Developments breathes new life into your spaces through modern renovation and remodeling. Whether it’s upgrading your home’s look or fixing old structures, we deliver quality materials and professional execution that adds value and comfort to your property.",
+    "faithNote": "Beautify your space — for indeed, Allah is Beautiful and loves beauty. (Muslim)",
+    "features": [
+      "Modern design transformations",
+      "Structural repairs & upgrades",
+      "Kitchen, bathroom & room remodeling",
+      "Use of quality, durable materials",
+      "Personalized approach to your needs"
+    ],
+    "image": "/services/renovation-remodeling.jpg",
+    "ourProcess": [
+      {
+        "title": "Site Visit & Assessment",
+        "description": "We inspect the existing structure and understand your goals."
+      },
+      {
+        "title": "Design & Planning",
+        "description": "We create a tailored renovation plan with visual previews."
+      },
+      {
+        "title": "Execution & Finishing",
+        "description": "Work is completed with attention to detail and quality finishes."
+      }
+    ],
+    "imageAlt": "A room shown half stripped back and half fully renovated with new flooring"
+  },
+  {
+    "slug": "investor-partnership",
+    "title": "Investor Partnership Program",
+    "icon": "Handshake",
+    "description": "Invest, build, and share profits (60/40) with full project handling — all rooted in Shariah principles of fairness and risk-sharing.",
+    "longDescription": "IDEAL Developments offers a unique, Shariah-aligned investment opportunity where profits are shared—not interest-based. Our Investor Partnership Program is built on principles of fairness, transparency, and shared risk and reward (Musharakah model). From buying land to design, construction, and sales—we handle it all. You invest, we manage, and together we build profitable real estate projects in a halal, ethical way.",
+    "faithNote": "A halal partnership brings rizq, trust, and multiplied reward.",
+    "features": [
+      "End-to-end project management",
+      "60/40 profit-sharing model",
+      "Transparent cost breakdowns",
+      "Land acquisition to sales",
+      "Risk-minimized real estate investment"
+    ],
+    "image": "/services/investor-partnership.jpg",
+    "ourProcess": [
+      {
+        "title": "Consult & Plan",
+        "description": "We align your investment goals with suitable opportunities."
+      },
+      {
+        "title": "Acquire & Design",
+        "description": "Land is acquired, and custom plans are developed by professionals."
+      },
+      {
+        "title": "Build & Sell",
+        "description": "We construct the property and handle marketing and sales."
+      }
+    ],
+    "imageAlt": "Two partners shaking hands over a signed profit-sharing agreement"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "/services/project-management.jpg",
+    "alt": "Engineers reviewing architectural drawings on a construction site",
+    "photographer": "Ahmet Kurt",
+    "profile": "https://unsplash.com/@ahmetkurt",
+    "source": "https://unsplash.com/photos/two-people-in-safety-vests-working-on-a-piece-of-paper-Y8VmmvK14QA",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/services/residential-construction.jpg",
+    "alt": "Mason laying red bricks with a trowel while building a house wall",
+    "photographer": "Gowtham AGM",
+    "profile": "https://unsplash.com/@gowthamagm",
+    "source": "https://unsplash.com/photos/a-brick-wall-being-built-with-a-pair-of-hands-YClFdlDbfOU",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/services/architectural-design.jpg",
+    "alt": "Architectural floor plans with drafting pencils, a scale ruler and a drawing tube",
+    "photographer": "Lucas Kepner",
+    "profile": "https://unsplash.com/@lucaskphoto",
+    "source": "https://unsplash.com/photos/architectural-blueprints-with-drafting-tools-Yn8D5B8C-eY",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/services/renovation-remodeling.jpg",
+    "alt": "Split view of a room before and after renovation, bare subfloor beside finished wood flooring",
+    "photographer": "Getty Images",
+    "profile": "https://unsplash.com/@gettyimages",
+    "source": "https://unsplash.com/photos/unfinished-raw-and-newly-remodeled-room-of-house-before-and-after-with-wood-floors-moulding-tan-paint-and-ceiling-lights-kzRZkpVMIzQ",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/services/investor-partnership.jpg",
+    "alt": "Two partners shaking hands over a signed agreement at a desk",
+    "photographer": "Amina Atar",
+    "profile": "https://unsplash.com/@minaslens",
+    "source": "https://unsplash.com/photos/two-people-shaking-hands-over-a-piece-of-paper-4mEyvORkbN0",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/blog/architectural-trends.jpg",
+    "alt": "Arched windows with geometric lattice screens framing daylight",
+    "photographer": "Ronan Furuta",
+    "profile": "https://unsplash.com/@ronan18",
+    "source": "https://unsplash.com/photos/ornate-dark-windows-with-grids-frame-a-bright-distant-landscape-uk4LOejwR7U",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/blog/architecture-detail.jpg",
+    "alt": "Carved Islamic geometric patterns on a historic sandstone facade",
+    "photographer": "Zoshua Colah",
+    "profile": "https://unsplash.com/@zoshuacolah",
+    "source": "https://unsplash.com/photos/intricate-islamic-architecture-with-geometric-patterns-XJrJByxsvjg",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/blog/sustainable-materials.jpg",
+    "alt": "Row of cut bamboo poles stacked as a building material",
+    "photographer": "Maksim Shutov",
+    "profile": "https://unsplash.com/@maksimshutov",
+    "source": "https://unsplash.com/photos/brown-bamboo-planks-_YZmLkUg_EI",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/blog/bamboo-detail.jpg",
+    "alt": "Close-up of bamboo canes used in construction",
+    "photographer": "JSB Co.",
+    "profile": "https://unsplash.com/@jsbco",
+    "source": "https://unsplash.com/photos/a-close-up-of-a-bunch-of-bamboo-sticks-M8WiaiWpXig",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  },
+  {
+    "file": "/blog/small-spaces.jpg",
+    "alt": "Compact apartment living room with a yellow sofa and large window",
+    "photographer": "Yevhenii Deshko",
+    "profile": "https://unsplash.com/@edeshko",
+    "source": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-large-window-TBJrxAvVx_M",
+    "license": "Unsplash License (free for commercial use, no attribution required)"
+  }
+]

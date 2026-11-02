@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "slug": "modern-architectural-trends",
+    "title": "Modern Architectural Trends in Pakistan",
+    "excerpt": "Exploring how contemporary designs are blending with traditional elements in Pakistani homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The architectural landscape of Pakistan is undergoing a fascinating transformation, blending contemporary global trends with rich cultural heritage. In major cities like Islamabad, Lahore, and Karachi, we're seeing a new wave of designs that respect traditional aesthetics while embracing modern functionality."
+      },
+      {
+        "type": "paragraph",
+        "text": "One prominent trend is the fusion of Mughal architectural elements with minimalist modern designs. Architects are incorporating jali work (lattice screens), chajjas (overhanging eaves), and courtyards into sleek, contemporary structures. These elements provide passive cooling solutions while maintaining visual appeal."
+      },
+      {
+        "type": "heading",
+        "text": "Key Features of Modern Pakistani Architecture"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Mixed-material facades combining stone, wood, and glass",
+          "Indoor-outdoor living spaces with seamless transitions",
+          "Traditional courtyard concepts reimagined as atriums",
+          "Energy-efficient designs with solar panel integration",
+          "Modern interpretations of Islamic geometric patterns"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/blog/architecture-detail.jpg",
+        "alt": "Carved Islamic geometric patterns on a historic sandstone facade"
+      },
+      {
+        "type": "paragraph",
+        "text": "Another significant development is the growing emphasis on sustainable architecture. Many new constructions are incorporating rainwater harvesting systems, solar energy solutions, and locally-sourced materials to reduce environmental impact while maintaining cost-effectiveness."
+      }
+    ],
+    "date": "2023-05-15",
+    "readTime": "5 min read",
+    "category": "Architecture",
+    "image": "/blog/architectural-trends.jpg",
+    "author": {
+      "name": "Ahmed Raza",
+      "bio": "Lead Architect with 15 years experience in residential design across Pakistan"
+    },
+    "tags": [
+      "modern design",
+      "cultural fusion",
+      "sustainable architecture"
+    ],
+    "imageAlt": "Arched windows with geometric lattice screens framing daylight"
+  },
+  {
+    "id": 2,
+    "slug": "sustainable-construction-materials",
+    "title": "Sustainable Construction Materials",
+    "excerpt": "Discover eco-friendly building materials that are revolutionizing construction in South Asia.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The construction industry is embracing sustainable materials that reduce environmental impact without compromising structural integrity. In Pakistan, several innovative materials are gaining popularity for their ecological benefits and cost-effectiveness."
+      },
+      {
+        "type": "heading",
+        "text": "Top Sustainable Materials"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Bamboo composites for structural elements",
+          "Recycled plastic bricks",
+          "Hempcrete (hemp-based concrete alternative)",
+          "Ferrock (steel-dust based concrete)",
+          "Rammed earth walls"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "/blog/bamboo-detail.jpg",
+        "alt": "Close-up of bamboo canes prepared for use in construction"
+      }
+    ],
+    "date": "2023-06-02",
+    "readTime": "7 min read",
+    "category": "Sustainability",
+    "image": "/blog/sustainable-materials.jpg",
+    "author": {
+      "name": "Fatima Khan",
+      "bio": "Sustainability consultant specializing in green building materials"
+    },
+    "tags": [
+      "eco-friendly",
+      "green building",
+      "material innovation"
+    ],
+    "imageAlt": "Row of cut bamboo poles stacked as a sustainable building material"
+  },
+  {
+    "id": 3,
+    "slug": "interior-design-small-spaces",
+    "title": "Interior Design for Small Spaces",
+    "excerpt": "Maximizing functionality without compromising on style in compact urban homes.",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "With urban living spaces shrinking, interior designers are developing clever solutions to make small apartments feel spacious and luxurious. The key lies in multifunctional furniture, smart storage, and visual tricks that create the illusion of space."
+      },
+      {
+        "type": "heading",
+        "text": "Space-Saving Strategies"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Wall-mounted foldable furniture",
+          "Mirrors to enhance natural light",
+          "Vertical storage solutions",
+          "Convertible furniture (beds that become desks)",
+          "Sliding doors instead of swinging ones"
+        ]
+      }
+    ],
+    "date": "2023-06-18",
+    "readTime": "4 min read",
+    "category": "Interior Design",
+    "image": "/blog/small-spaces.jpg",
+    "author": {
+      "name": "Zara Ahmed",
+      "bio": "Interior designer specializing in compact urban spaces"
+    },
+    "tags": [
+      "space optimization",
+      "urban living",
+      "multifunctional design"
+    ],
+    "imageAlt": "Compact apartment living room with a yellow sofa beside a large window"
+  }
+]

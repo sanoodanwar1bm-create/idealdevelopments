@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "house-723-b17",
+    "title": "Houses 723 & 724",
+    "location": "Street 32, E-Block, B-17",
+    "tag": "7 Marla · Paired homes",
+    "status": "Ready to move in",
+    "video": "/tours/house-723-b17.mp4",
+    "preview": "/tours/house-723-b17-preview.mp4",
+    "poster": "/tours/house-723-b17.jpg",
+    "duration": "0:32"
+  },
+  {
+    "slug": "house-956",
+    "title": "House 956",
+    "location": "Street 42, E-Block, B-17",
+    "tag": "2 Units",
+    "status": "For sale",
+    "video": "/tours/house-956.mp4",
+    "preview": "/tours/house-956-preview.mp4",
+    "poster": "/tours/house-956.jpg",
+    "duration": "0:34"
+  },
+  {
+    "slug": "house-766-fmc",
+    "title": "House 766",
+    "location": "Street 19, Faisal Margalla City",
+    "tag": "5 Marla · 2 Units",
+    "status": "For sale",
+    "video": "/tours/house-766-fmc.mp4",
+    "preview": "/tours/house-766-fmc-preview.mp4",
+    "poster": "/tours/house-766-fmc.jpg",
+    "duration": "0:25"
+  },
+  {
+    "slug": "fmc-644",
+    "title": "House 644",
+    "location": "Faisal Margalla City",
+    "tag": "Full walkthrough",
+    "status": "For sale",
+    "video": "/tours/fmc-644.mp4",
+    "preview": "/tours/fmc-644-preview.mp4",
+    "poster": "/tours/fmc-644.jpg",
+    "duration": "1:04"
+  }
+]
