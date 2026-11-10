@@ -75,6 +75,7 @@ function LabReport() {
           <li key={item} className="flex items-center justify-between rounded-xl bg-white px-4 py-3 shadow-soft">
             <span className="text-sm font-semibold text-ink">{item}</span>
             <motion.span
+              data-reveal="still"
               initial={{ scale: 0, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               viewport={{ once: true }}
@@ -101,6 +102,7 @@ function BlueprintSketch() {
         stroke="currentColor"
         strokeWidth="1.5"
         strokeLinejoin="round"
+        data-reveal="draw"
         initial={{ pathLength: 0 }}
         whileInView={{ pathLength: 1 }}
         viewport={{ once: true }}
@@ -119,6 +121,8 @@ function Timeline() {
       <div className="relative h-1 rounded-full bg-ink/10">
         <motion.div
           className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-teal to-gold-500"
+          data-reveal="fill"
+          style={{ "--fill": "100%" }}
           initial={{ width: 0 }}
           whileInView={{ width: "100%" }}
           viewport={{ once: true }}
@@ -145,6 +149,7 @@ function Chat() {
       {msgs.map((m, i) => (
         <motion.div
           key={i}
+          data-reveal=""
           initial={{ opacity: 0, y: 10, scale: 0.95 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true }}

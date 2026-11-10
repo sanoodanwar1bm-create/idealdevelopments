@@ -33,6 +33,7 @@ function Media({ service, index, light }) {
   return (
     <div ref={ref} className="relative">
       <motion.div
+        data-reveal=""
         initial={{ clipPath: "inset(12% 12% 12% 12% round 2rem)", opacity: 0 }}
         whileInView={{ clipPath: "inset(0% 0% 0% 0% round 2rem)", opacity: 1 }}
         viewport={{ once: true, margin: "-100px" }}
@@ -74,6 +75,7 @@ function ProcessSteps({ steps, light }) {
     <ol className="relative mt-4 grid gap-4 sm:grid-flow-col sm:auto-cols-fr">
       <motion.span
         aria-hidden
+        data-reveal="still"
         initial={{ scaleX: 0 }}
         whileInView={{ scaleX: 1 }}
         viewport={{ once: true }}
@@ -83,6 +85,7 @@ function ProcessSteps({ steps, light }) {
       {steps.map((st, i) => (
         <motion.li
           key={st.title}
+          data-reveal=""
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -162,6 +165,7 @@ function Chapter({ service, index, onActive }) {
             {service.features.map((f, i) => (
               <motion.li
                 key={f}
+                data-reveal=""
                 initial={{ opacity: 0, x: -12 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}

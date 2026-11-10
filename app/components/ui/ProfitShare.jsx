@@ -17,6 +17,8 @@ export default function ProfitShare({ className = "mt-8" }) {
       </div>
       <div className="mt-4 flex h-3 overflow-hidden rounded-full bg-white/15">
         <motion.div
+          data-reveal="fill"
+          style={{ "--fill": "60%" }}
           initial={{ width: 0 }}
           whileInView={{ width: "60%" }}
           viewport={{ once: true }}
@@ -24,6 +26,8 @@ export default function ProfitShare({ className = "mt-8" }) {
           className="h-full bg-gold-500"
         />
         <motion.div
+          data-reveal="fill"
+          style={{ "--fill": "40%" }}
           initial={{ width: 0 }}
           whileInView={{ width: "40%" }}
           viewport={{ once: true }}

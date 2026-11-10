@@ -381,6 +381,7 @@ function Process({ service }) {
                 <li key={st.title} className="relative pl-16 lg:grid lg:grid-cols-2 lg:gap-16 lg:pl-0">
                   <span className="absolute left-5 top-4 z-10 -translate-x-1/2 lg:left-1/2">
                     <motion.span
+                      data-reveal="still"
                       initial={{ scale: 0 }}
                       whileInView={{ scale: 1 }}
                       viewport={{ once: true, margin: "-15% 0px -15% 0px" }}

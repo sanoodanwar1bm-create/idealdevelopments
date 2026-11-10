@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { isLite } from "@lib/fx";
 import { EASE_OUT, SplitText, fontsReady, gsap, reducedMotion } from "./gsap";
 
 /*
@@ -15,6 +16,10 @@ import { EASE_OUT, SplitText, fontsReady, gsap, reducedMotion } from "./gsap";
  *
  * Pass `show` to gate the reveal on something else (the preloader finishing);
  * leave it out and the heading plays when it scrolls into view.
+ *
+ * On lite (touch) devices the scroll-triggered version does not play: a fast
+ * flick can outrun the trigger and leave the heading hidden behind its mask.
+ * data-reveal keeps it visible from the first paint (see globals.css).
  */
 export default function SplitReveal({
   as: Tag = "h2",
@@ -35,7 +40,7 @@ export default function SplitReveal({
     const el = ref.current;
     if (!el) return;
 
-    if (reducedMotion()) {
+    if (reducedMotion() || (!controlled && isLite())) {
       gsap.set(el, { opacity: 1 });
       return;
     }
@@ -89,7 +94,7 @@ export default function SplitReveal({
   }, [controlled, show, delay, stagger, duration, start]);
 
   return (
-    <Tag ref={ref} className={className} style={{ opacity: 0 }} {...rest}>
+    <Tag ref={ref} className={className} style={{ opacity: 0 }} data-reveal={controlled ? undefined : "still"} {...rest}>
       {children}
     </Tag>
   );

@@ -262,3 +262,26 @@ html.lenis body {
     rgb(var(--glow) / 0)
   );
 }
+
+/* Scroll reveals on lite devices. On iOS a fast flick can outrun the
+   IntersectionObserver, so anything waiting at opacity 0 paints blank until the
+   user scrolls back. Every reveal carries data-reveal (see ui/Reveal.jsx), and
+   on lite devices it is visible from the first paint and only settles into place.
+     data-reveal          stays visible, keeps its slide
+     data-reveal="still"  no motion at all (scale-from-0, words behind a mask)
+     data-reveal="fill"   a bar that grows: drawn at its final width (--fill)
+     data-reveal="draw"   an SVG line that draws in: drawn complete */
+.fx-lite [data-reveal] {
+  opacity: 1 !important;
+  clip-path: none !important;
+}
+.fx-lite [data-reveal="still"] {
+  transform: none !important;
+}
+.fx-lite [data-reveal="fill"] {
+  width: var(--fill) !important;
+}
+.fx-lite [data-reveal="draw"] {
+  stroke-dasharray: none !important;
+  stroke-dashoffset: 0 !important;
+}

@@ -166,6 +166,7 @@ export default function ProjectsGallery({ innerRef }) {
             {materials.map((m, i) => (
               <motion.span
                 key={m}
+                data-reveal=""
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

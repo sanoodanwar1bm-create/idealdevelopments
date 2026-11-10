@@ -213,6 +213,7 @@ function Details({ project }) {
                   {items.map((item, i) => (
                     <motion.li
                       key={item}
+                      data-reveal=""
                       initial={{ opacity: 0, x: -10 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}

@@ -4,12 +4,14 @@ import { motion } from "framer-motion";
 
 const EASE = [0.16, 1, 0.3, 1];
 
-// Fade + rise when scrolled into view.
+// Fade + rise when scrolled into view. data-reveal keeps it visible on touch
+// devices, where a fast flick can outrun the observer (see globals.css).
 export function FadeUp({ children, delay = 0, y = 28, className = "", as = "div", ...rest }) {
   const Comp = motion[as];
   return (
     <Comp
       className={className}
+      data-reveal=""
       initial={{ opacity: 0, y }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
@@ -32,6 +34,8 @@ export function WordReveal({ text, className = "", delay = 0, stagger = 0.06, sh
         <span key={i} className="inline-block overflow-hidden pb-[0.12em] -mb-[0.12em] align-bottom" aria-hidden>
           <motion.span
             className="inline-block will-change-transform"
+            // Only the scroll-triggered version: a controlled one plays on mount.
+            data-reveal={controlled ? undefined : "still"}
             initial={{ y: "105%" }}
             {...(controlled
               ? { animate: show ? { y: 0 } : { y: "105%" } }
