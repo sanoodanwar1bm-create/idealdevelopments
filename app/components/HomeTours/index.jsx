@@ -221,8 +221,8 @@ export default function HomeTours() {
   return (
     <section id="tours" className="relative overflow-hidden bg-ink py-24 sm:py-32">
       {/* soft light behind the reels */}
-      <div className="pointer-events-none absolute -right-40 top-10 h-[36rem] w-[36rem] rounded-full bg-teal/30 blur-[120px]" />
-      <div className="pointer-events-none absolute -left-40 bottom-0 h-[30rem] w-[30rem] rounded-full bg-gold-500/10 blur-[120px]" />
+      <div className="pointer-events-none absolute -right-40 top-10 h-[36rem] w-[36rem] rounded-full glow scale-[2] opacity-30 [--glow:21_122_110]" />
+      <div className="pointer-events-none absolute -left-40 bottom-0 h-[30rem] w-[30rem] rounded-full glow scale-[2] opacity-10 [--glow:212_175_55]" />
       <div className="bg-blueprint pointer-events-none absolute inset-0 opacity-[0.06]" />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">

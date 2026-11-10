@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { usePathname } from "next/navigation";
 import Lenis from "lenis";
 import { gsap, ScrollTrigger, fontsReady } from "@components/motion/gsap";
+import { FX_MODE_SCRIPT } from "@lib/fx";
 
 let lenisInstance = null;
 
@@ -21,6 +22,12 @@ export function scrollToHash(hash, { immediate = false } = {}) {
 
 export default function SmoothScroll({ children }) {
   const pathname = usePathname();
+
+  // Strict Mode resets <html> attributes on its dev-only remount, dropping the
+  // class the inline script set. Re-applying it is a no-op in production.
+  useLayoutEffect(() => {
+    new Function(FX_MODE_SCRIPT)();
+  }, []);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;

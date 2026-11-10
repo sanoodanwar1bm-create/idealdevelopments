@@ -42,7 +42,7 @@ export default function ServicesHero() {
       className="relative isolate overflow-hidden bg-[linear-gradient(160deg,#efe4d2_0%,#e3e6df_45%,#c9dce6_100%)] pb-16 pt-20 lg:pb-24 lg:pt-36"
     >
       <div className="absolute inset-0 -z-10 bg-blueprint opacity-60 mask-fade-edges" />
-      <div className="absolute -left-32 top-20 -z-10 h-[30rem] w-[30rem] rounded-full bg-white/50 blur-[120px]" />
+      <div className="absolute -left-32 top-20 -z-10 h-[30rem] w-[30rem] rounded-full glow scale-[2] opacity-50 [--glow:255_255_255]" />
 
       <div className="mx-auto grid max-w-7xl items-center gap-6 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr]">
         <motion.div style={{ y }} className="relative z-10 min-w-0">

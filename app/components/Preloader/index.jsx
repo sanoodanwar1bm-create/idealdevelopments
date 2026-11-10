@@ -1,17 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, animate } from "framer-motion";
 import BrandMark from "@components/BrandMark";
 
 const STEPS = ["Surveying the site", "Laying the foundation", "Raising the structure", "Welcome"];
 const SEEN_KEY = "ideal-intro-seen";
+const stepAt = (count) => STEPS[Math.min(STEPS.length - 1, Math.floor(count / 26))];
 
 // Brief branded intro. Plays once per browser session.
+// Everything that moves every frame is a transform or a direct DOM write: the
+// overlay covers the whole viewport, and Safari repaints all of it for clip-path,
+// width, or a React re-render on each frame.
 export default function Preloader({ onDone }) {
   const [show, setShow] = useState(true);
-  const [count, setCount] = useState(0);
+  const [step, setStep] = useState(STEPS[0]);
   const [quick, setQuick] = useState(false);
+  const countRef = useRef(null);
+  const barRef = useRef(null);
 
   useEffect(() => {
     let seen = false;
@@ -32,13 +38,16 @@ export default function Preloader({ onDone }) {
     const controls = animate(0, 100, {
       duration: seen || reduced ? 0.35 : lean ? 1.1 : 2.1,
       ease: [0.65, 0, 0.35, 1],
-      onUpdate: (v) => setCount(Math.round(v)),
+      onUpdate: (v) => {
+        const count = Math.round(v);
+        if (countRef.current) countRef.current.textContent = count;
+        if (barRef.current) barRef.current.style.transform = `scaleX(${v / 100})`;
+        setStep(stepAt(count)); // bails out unless the label actually changes
+      },
       onComplete: () => setTimeout(() => setShow(false), seen || reduced ? 0 : 250),
     });
     return () => controls.stop();
   }, []);
-
-  const step = STEPS[Math.min(STEPS.length - 1, Math.floor(count / 26))];
 
   return (
     <AnimatePresence onExitComplete={onDone}>
@@ -46,8 +55,8 @@ export default function Preloader({ onDone }) {
         <motion.div
           key="preloader"
           className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-ivory bg-blueprint"
-          initial={{ clipPath: "inset(0 0 0 0)" }}
-          exit={{ clipPath: "inset(0 0 100% 0)" }}
+          initial={{ y: 0 }}
+          exit={{ y: "-100%" }}
           transition={{ duration: quick ? 0.4 : 0.9, ease: [0.76, 0, 0.24, 1] }}
         >
           <div className="w-28 sm:w-36">
@@ -80,14 +89,15 @@ export default function Preloader({ onDone }) {
                 </motion.span>
               </AnimatePresence>
               <span className="text-4xl font-bold tabular-nums tracking-tight">
-                {count}
+                <span ref={countRef}>0</span>
                 <span className="text-gold-500">%</span>
               </span>
             </div>
             <div className="h-[3px] w-full overflow-hidden rounded-full bg-ink/10">
               <div
-                className="h-full rounded-full bg-gradient-to-r from-teal via-teal to-gold-500"
-                style={{ width: `${count}%` }}
+                ref={barRef}
+                className="h-full origin-left rounded-full bg-gradient-to-r from-teal via-teal to-gold-500"
+                style={{ transform: "scaleX(0)" }}
               />
             </div>
           </div>

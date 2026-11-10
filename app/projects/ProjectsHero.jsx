@@ -40,7 +40,7 @@ export default function ProjectsHero({ facts, scrollToGallery }) {
   return (
     <section className="relative isolate overflow-hidden bg-[linear-gradient(165deg,#dfe8ef_0%,#e9e5da_55%,#efe4d2_100%)] pb-16 pt-24 lg:pb-24 lg:pt-32">
       <div className="absolute inset-0 -z-10 bg-blueprint opacity-60 mask-fade-edges" />
-      <div className="absolute -right-32 top-10 -z-10 h-[32rem] w-[32rem] rounded-full bg-white/50 blur-[120px]" />
+      <div className="absolute -right-32 top-10 -z-10 h-[32rem] w-[32rem] rounded-full glow scale-[2] opacity-50 [--glow:255_255_255]" />
 
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="min-w-0">

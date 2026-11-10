@@ -223,3 +223,42 @@ html.lenis body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ===============================
+   Lite effects (touch devices)
+   backdrop-filter and masks each need their own GPU surface; on iOS they
+   exhaust the compositor and the main thread stalls. lib/fx.js sets the class.
+================================= */
+.fx-lite *,
+.fx-lite *::before,
+.fx-lite *::after {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+/* Without the blur, translucent panels let busy content show through.
+   Raise their opacity on lite devices only; desktop keeps the glass. */
+.fx-lite .nav-glass {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+/* Soft glow orbs. A gradient instead of filter: blur, which needs its own GPU
+   surface. The stops follow a disc blurred by half its radius, and scale-[2]
+   lets it spread past the box the way the blur did. Set the colour with
+   [--glow:R_G_B] and the strength with opacity-*. */
+.glow {
+  background-image: radial-gradient(
+    closest-side,
+    rgb(var(--glow) / 0.86),
+    rgb(var(--glow) / 0.83) 12.5%,
+    rgb(var(--glow) / 0.73) 25%,
+    rgb(var(--glow) / 0.58) 37.5%,
+    rgb(var(--glow) / 0.4) 50%,
+    rgb(var(--glow) / 0.23) 62.5%,
+    rgb(var(--glow) / 0.11) 75%,
+    rgb(var(--glow) / 0.04) 87.5%,
+    rgb(var(--glow) / 0)
+  );
+}

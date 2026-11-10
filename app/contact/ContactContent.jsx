@@ -163,7 +163,7 @@ function Hero() {
                 }`}
               >
                 {primary && (
-                  <span className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gold-500/20 blur-2xl" />
+                  <span className="absolute -right-10 -top-10 h-40 w-40 rounded-full glow scale-[2] opacity-20 [--glow:212_175_55]" />
                 )}
                 <div className="relative">
                   <span

@@ -149,8 +149,8 @@ export default function Process() {
     >
       <div className="sticky top-0 h-[100svh] overflow-hidden">
         <div className="absolute inset-0 bg-blueprint opacity-70 mask-fade-edges" />
-        <div className="absolute -left-40 top-0 h-[28rem] w-[28rem] rounded-full bg-white/60 blur-[120px]" />
-        <div className="absolute -right-32 bottom-0 h-[26rem] w-[26rem] rounded-full bg-gold-300/25 blur-[120px]" />
+        <div className="absolute -left-40 top-0 h-[28rem] w-[28rem] rounded-full glow scale-[2] opacity-60 [--glow:255_255_255]" />
+        <div className="absolute -right-32 bottom-0 h-[26rem] w-[26rem] rounded-full glow scale-[2] opacity-25 [--glow:236_215_143]" />
 
         <div className="relative mx-auto flex h-full max-w-7xl flex-col px-5 pb-8 pt-[max(5.5rem,10svh)] sm:px-8 sm:pb-7 lg:pb-9">
           {/* Heading */}

@@ -155,8 +155,8 @@ export default function Hero({ start = true }) {
     >
       {/* Backdrop */}
       <div className="absolute inset-0 -z-10 bg-blueprint opacity-60 mask-fade-edges" />
-      <div className="absolute -right-40 top-10 -z-10 h-[38rem] w-[38rem] rounded-full bg-white/50 blur-[120px]" />
-      <div className="absolute -left-40 bottom-0 -z-10 h-[30rem] w-[30rem] rounded-full bg-gold-300/30 blur-[120px]" />
+      <div className="absolute -right-40 top-10 -z-10 h-[38rem] w-[38rem] rounded-full glow scale-[2] opacity-50 [--glow:255_255_255]" />
+      <div className="absolute -left-40 bottom-0 -z-10 h-[30rem] w-[30rem] rounded-full glow scale-[2] opacity-30 [--glow:236_215_143]" />
 
       {/* Copy */}
       <motion.div

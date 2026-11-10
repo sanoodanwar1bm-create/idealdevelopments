@@ -44,7 +44,7 @@ export default function CallToAction() {
         className="relative mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-[#0f3a66] via-ink to-[#0d4f55] px-6 py-24 text-center sm:py-32"
       >
         <div className="absolute inset-0 bg-blueprint-light mask-fade-edges" />
-        <div className="absolute left-1/2 top-0 h-64 w-[40rem] -translate-x-1/2 rounded-full bg-gold-500/25 blur-[100px]" />
+        <div className="absolute left-1/2 top-0 h-64 w-[40rem] -translate-x-1/2 rounded-full glow scale-[2] opacity-25 [--glow:212_175_55]" />
         {FLOAT.map((f, i) => (
           <FloatingBrick key={i} item={f} progress={scrollYProgress} />
         ))}

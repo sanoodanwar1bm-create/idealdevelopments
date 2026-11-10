@@ -243,7 +243,7 @@ function VisionMission() {
 function OurValues() {
   return (
     <section id="values" className="relative overflow-hidden bg-ink py-24 sm:py-32">
-      <div className="pointer-events-none absolute -right-40 -top-20 h-[32rem] w-[32rem] rounded-full bg-teal/25 blur-[120px]" />
+      <div className="pointer-events-none absolute -right-40 -top-20 h-[32rem] w-[32rem] rounded-full glow scale-[2] opacity-25 [--glow:21_122_110]" />
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
           index="04"

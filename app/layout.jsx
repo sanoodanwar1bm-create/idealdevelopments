@@ -7,6 +7,7 @@ import SmoothScroll from "@components/SmoothScroll";
 import JsonLd from "@components/JsonLd";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { fontVariables } from "@lib/font";
+import { FX_MODE_SCRIPT } from "@lib/fx";
 import {
   DEFAULT_DESCRIPTION,
   KEYWORDS,
@@ -69,9 +70,11 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
+  // suppressHydrationWarning: the inline script adds the fx-lite class before hydration.
   return (
-    <html lang="en-PK" className={fontVariables}>
+    <html lang="en-PK" className={fontVariables} suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: FX_MODE_SCRIPT }} />
         {/* The 3D scenes and fonts come from these origins; warm them early. */}
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <JsonLd data={graph(organizationLd, websiteLd)} />

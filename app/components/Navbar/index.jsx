@@ -275,7 +275,7 @@ export default function Navbar({ solid = false }) {
         <nav
           className={`mx-auto flex max-w-7xl items-center justify-between rounded-2xl border px-3 py-2.5 transition-all duration-500 sm:px-4 ${
             scrolled || isOpen || solid
-              ? "border-white/60 bg-white/75 shadow-soft backdrop-blur-xl"
+              ? "nav-glass border-white/60 bg-white/75 shadow-soft backdrop-blur-xl"
               : "border-transparent bg-transparent"
           }`}
         >
@@ -391,9 +391,11 @@ export default function Navbar({ solid = false }) {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ clipPath: "circle(0% at calc(100% - 44px) 44px)" }}
-            animate={{ clipPath: "circle(150% at calc(100% - 44px) 44px)" }}
-            exit={{ clipPath: "circle(0% at calc(100% - 44px) 44px)" }}
+            // A transform, not a clip-path circle: Safari repaints the whole
+            // viewport every frame for a full-screen clip-path.
+            initial={{ y: "-100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "-100%" }}
             transition={{ duration: 0.7, ease: [0.76, 0, 0.24, 1] }}
             className="fixed inset-0 z-[55] flex flex-col bg-ivory bg-blueprint px-6 pb-6 pt-24 lg:hidden"
           >
