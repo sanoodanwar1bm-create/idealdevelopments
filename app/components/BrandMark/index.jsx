@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-// The IDEAL Developments mark as four parallelogram "bricks" (traced from the official icon).
+// The IDEAL Infrastructure mark as four parallelogram "bricks" (traced from the official icon).
 export const BRICKS = [
   { d: "M160 122 L277 0 H433 V110 Q433 122 421 122 Z", fill: "#157a6e", from: { x: 120, y: -160 } },
   { d: "M5 272 L128 152 H266 Q278 152 278 164 V260 Q278 272 266 272 Z", fill: "#157a6e", from: { x: -180, y: -40 } },

@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_1.1fr_1.2fr]">
           {/* Brand */}
           <div>
-            <Link href="/" className="inline-flex" aria-label="IDEAL Developments home">
+            <Link href="/" className="inline-flex" aria-label="IDEAL Infrastructure home">
               <Logo className="text-[30px]" />
             </Link>
             <p className="mt-5 max-w-sm leading-relaxed text-ink/60">
@@ -132,7 +132,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col items-center justify-between gap-3 border-t border-ink/10 py-6 text-sm text-ink/50 sm:flex-row">
-          <p>© {new Date().getFullYear()} IDEAL Developments. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} IDEAL Infrastructure. All rights reserved.</p>
           <p className="font-quote italic">Built with Ihsan, in Islamabad.</p>
         </div>
       </div>

@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
-export const alt = "IDEAL Developments — design and build homes in Islamabad, built with Ihsan";
+export const alt = "IDEAL Infrastructure — design and build homes in Islamabad, built with Ihsan";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -75,7 +75,7 @@ export default async function OgImage() {
               borderRadius: 999,
             }}
           >
-            idealconstruction.com.pk
+            idealinfrastructure.pk
           </div>
           <div style={{ display: "flex", color: "rgba(247,245,240,0.6)" }}>
             House 723, E Block, Multigardens B-17, Islamabad

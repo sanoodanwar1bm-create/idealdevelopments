@@ -14,13 +14,13 @@ import {
 
 export const metadata = {
   ...pageMeta({
-    title: "Construction Company in Islamabad | IDEAL Developments — We Build with Ihsan",
+    title: "Construction Company in Islamabad | IDEAL Infrastructure — We Build with Ihsan",
     description: DEFAULT_DESCRIPTION,
     path: "/",
   }),
   // The root layout already sets the default title; keep the homepage's own.
   title: {
-    absolute: "Construction Company in Islamabad | IDEAL Developments — We Build with Ihsan",
+    absolute: "Construction Company in Islamabad | IDEAL Infrastructure — We Build with Ihsan",
   },
 };
 
@@ -29,7 +29,7 @@ const homeLd = graph(
     "@type": "WebPage",
     "@id": `${url("/")}/#webpage`,
     url: url("/"),
-    name: "IDEAL Developments — design and build homes in Islamabad",
+    name: "IDEAL Infrastructure — design and build homes in Islamabad",
     description: DEFAULT_DESCRIPTION,
     isPartOf: { "@id": WEBSITE_ID },
     about: { "@id": ORGANIZATION_ID },
@@ -47,7 +47,7 @@ const homeLd = graph(
   {
     "@type": "ItemList",
     "@id": `${url("/")}/#services`,
-    name: "Construction services offered by IDEAL Developments",
+    name: "Construction services offered by IDEAL Infrastructure",
     itemListElement: services.map((s, i) => ({
       "@type": "ListItem",
       position: i + 1,

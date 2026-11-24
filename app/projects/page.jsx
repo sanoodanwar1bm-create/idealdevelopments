@@ -6,7 +6,7 @@ import projects from "@lib/projects.json";
 import { ORGANIZATION_ID, WEBSITE_ID, absolute, breadcrumbLd, graph, pageMeta, url } from "@lib/seo";
 
 const description =
-  "Completed 5 Marla, 7 Marla, 10 Marla and 1 Kanal homes built by IDEAL Developments in Islamabad — with real budgets, build durations and the materials used on each project.";
+  "Completed 5 Marla, 7 Marla, 10 Marla and 1 Kanal homes built by IDEAL Infrastructure in Islamabad — with real budgets, build durations and the materials used on each project.";
 
 export const metadata = pageMeta({
   title: "Our Projects — 5, 7 & 10 Marla Homes Built in Islamabad",

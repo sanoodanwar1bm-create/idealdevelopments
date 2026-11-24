@@ -230,7 +230,7 @@ function Office() {
           <FadeUp className="overflow-hidden rounded-[2rem] bg-white p-2 shadow-lift">
             <iframe
               src={MAP_EMBED}
-              title="IDEAL Developments office location, House 723, E Block, Multigardens B-17, Islamabad"
+              title="IDEAL Infrastructure office location, House 723, E Block, Multigardens B-17, Islamabad"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen

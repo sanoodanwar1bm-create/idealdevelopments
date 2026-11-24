@@ -66,7 +66,7 @@ function Hero() {
             transition={{ duration: 0.9, delay: 0.55, ease: EASE }}
             className="mt-7 max-w-xl text-lg leading-relaxed text-ink/65 sm:text-xl"
           >
-            IDEAL Developments is a design-and-build company in Islamabad. We plan, build and hand over
+            IDEAL Infrastructure is a design-and-build company in Islamabad. We plan, build and hand over
             homes with certified materials, honest budgets and the conviction that every structure is an
             <em className="font-quote text-ink"> amanah</em> we answer for.
           </motion.p>
@@ -97,7 +97,7 @@ function Hero() {
           >
             <Image
               src="/projects/10marla.jpg"
-              alt="A finished IDEAL Developments home in Islamabad"
+              alt="A finished IDEAL Infrastructure home in Islamabad"
               fill
               priority
               sizes="(max-width: 1024px) 90vw, 460px"

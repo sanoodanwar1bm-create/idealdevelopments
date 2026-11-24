@@ -22,7 +22,7 @@ import {
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Construction Company in Islamabad | IDEAL Developments — We Build with Ihsan",
+    default: "Construction Company in Islamabad | IDEAL Infrastructure — We Build with Ihsan",
     template: `%s | ${SITE_NAME}`,
   },
   description: DEFAULT_DESCRIPTION,
@@ -38,12 +38,12 @@ export const metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
     locale: LOCALE,
-    title: "IDEAL Developments — Design & Build in Islamabad",
+    title: "IDEAL Infrastructure — Design & Build in Islamabad",
     description: DEFAULT_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: "IDEAL Developments — Design & Build in Islamabad",
+    title: "IDEAL Infrastructure — Design & Build in Islamabad",
     description: DEFAULT_DESCRIPTION,
   },
   robots: {

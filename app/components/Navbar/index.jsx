@@ -280,7 +280,7 @@ export default function Navbar({ solid = false }) {
           }`}
         >
           {/* Logo */}
-          <Link href="/" className="group flex items-center py-1 pl-1" aria-label="IDEAL Developments home">
+          <Link href="/" className="group flex items-center py-1 pl-1" aria-label="IDEAL Infrastructure home">
             <Logo className="text-[24px] transition-opacity duration-300 group-hover:opacity-80 sm:text-[27px]" />
           </Link>
 

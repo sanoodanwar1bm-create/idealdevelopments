@@ -70,8 +70,8 @@ export default function Preloader({ onDone }) {
             className="mt-8 flex flex-col items-center font-brand leading-none"
           >
             <span className="pl-[0.1em] text-4xl font-extrabold tracking-[0.1em] text-ink sm:text-5xl">IDEAL</span>
-            <span className="mt-3 pl-[0.4em] text-[10px] font-semibold tracking-[0.4em] text-teal sm:text-[13px]">
-              DEVELOPMENTS
+            <span className="mt-3 pl-[0.28em] text-[10px] font-semibold tracking-[0.28em] text-teal sm:text-[13px]">
+              INFRASTRUCTURE
             </span>
           </motion.p>
 

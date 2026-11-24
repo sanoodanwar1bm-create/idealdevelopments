@@ -10,7 +10,7 @@ import blogPosts from "@lib/blogs.json";
 import { ORGANIZATION_ID, WEBSITE_ID, absolute, breadcrumbLd, graph, pageMeta, url } from "@lib/seo";
 
 const description =
-  "Guidance on building in Pakistan from the IDEAL Developments team: architectural trends, sustainable materials, costs and how to get more out of a small plot.";
+  "Guidance on building in Pakistan from the IDEAL Infrastructure team: architectural trends, sustainable materials, costs and how to get more out of a small plot.";
 
 export const metadata = pageMeta({
   title: "Blog — Construction & Design Guidance for Pakistani Homes",
@@ -23,7 +23,7 @@ const ld = graph(
     "@type": "Blog",
     "@id": `${url("/blogs")}#blog`,
     url: url("/blogs"),
-    name: "IDEAL Developments blog",
+    name: "IDEAL Infrastructure blog",
     description,
     publisher: { "@id": ORGANIZATION_ID },
     isPartOf: { "@id": WEBSITE_ID },

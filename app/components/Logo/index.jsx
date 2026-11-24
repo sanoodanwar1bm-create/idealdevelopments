@@ -1,7 +1,8 @@
 import BrandMark from "@components/BrandMark";
 
-// The IDEAL Developments lockup, built to the spec in the logo files:
-// mark | teal rule | IDEAL (Saira 800, +10%) over DEVELOPMENTS (Saira 600, +40%).
+// The IDEAL Infrastructure lockup, built to the spec in the logo files:
+// mark | teal rule | IDEAL (Saira 800, +10%) over INFRASTRUCTURE (Saira 600, +28%, so it spans
+// the same width as IDEAL did with the old, shorter DEVELOPMENTS).
 // Size it with a font-size class on `className`; everything scales in em.
 export default function Logo({ className = "", tone = "brand", divider = true, animate = false, delay = 0 }) {
   const light = tone === "light";
@@ -14,11 +15,11 @@ export default function Logo({ className = "", tone = "brand", divider = true, a
           IDEAL
         </span>
         <span
-          className={`-mr-[0.4em] mt-[0.32em] font-brand text-[0.26em] font-semibold tracking-[0.4em] ${
+          className={`-mr-[0.28em] mt-[0.32em] font-brand text-[0.26em] font-semibold tracking-[0.28em] ${
             light ? "text-[#6fd3c3]" : "text-teal"
           }`}
         >
-          DEVELOPMENTS
+          INFRASTRUCTURE
         </span>
       </span>
     </span>

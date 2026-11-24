@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
   if (!project) return {};
   return pageMeta({
     title: `${project.title} in ${project.location} — ${project.size} Build`,
-    description: `${project.description} Built by IDEAL Developments in ${project.duration}.`,
+    description: `${project.description} Built by IDEAL Infrastructure in ${project.duration}.`,
     path: `/project/${slug}`,
     images: project.images,
   });

@@ -233,7 +233,7 @@ export default function HomeTours() {
             eyebrow="Home tours"
             title="Step inside the homes"
             accent="we've built."
-            description="Real walkthroughs of finished IDEAL Developments homes in B-17 and Faisal Margalla City. Tap a home to watch the full tour."
+            description="Real walkthroughs of finished IDEAL Infrastructure homes in B-17 and Faisal Margalla City. Tap a home to watch the full tour."
             tone="light"
           />
           <p className="text-xs font-bold uppercase tracking-[0.25em] text-white/50 lg:hidden">Swipe to explore →</p>
