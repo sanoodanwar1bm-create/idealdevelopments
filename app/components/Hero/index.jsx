@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
 import { gsap } from "gsap";
-import { ShieldCheck, FlaskConical, Scale } from "lucide-react";
+import { ShieldCheck, FlaskConical, Scale, BadgeCheck } from "lucide-react";
 import MagneticButton from "@components/ui/MagneticButton";
 import { WordReveal } from "@components/ui/Reveal";
 import { WHATSAPP_LINK } from "@lib/site";
@@ -20,6 +20,7 @@ const TRUST = [
   { icon: FlaskConical, label: "Lab-tested materials" },
   { icon: Scale, label: "Fair, honest pricing" },
   { icon: ShieldCheck, label: "Shariah-guided dealings" },
+  { icon: BadgeCheck, label: "SECP & PEC registered" },
 ];
 
 const STAGES = [

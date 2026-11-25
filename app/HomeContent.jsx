@@ -6,6 +6,7 @@ import Preloader from "@components/Preloader";
 import Hero from "@components/Hero";
 import Marquee from "@components/Marquee";
 import Process from "@components/Process";
+import ClientPortal from "@components/ClientPortal";
 import Services from "@components/Services";
 import WhyChooseUs from "@components/WhyChooseUs";
 import Projects from "@components/Projects";
@@ -24,6 +25,7 @@ export default function HomeContent() {
       <Hero start={introDone} />
       <Marquee />
       <Process />
+      <ClientPortal />
       <Services />
       <WhyChooseUs />
       <Projects />

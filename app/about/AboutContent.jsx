@@ -137,7 +137,7 @@ function WhoWeAre() {
           <span className="text-xs font-bold uppercase tracking-[0.28em] text-ink/60">Who we are</span>
         </FadeUp>
         <ScrollHighlight
-          text="We are a team of certified engineers, architects and craftsmen delivering complete Design & Build services: architecture and 3D visualisation, residential construction, renovation, project management and a Shariah-compliant investor partnership programme. Everything we do is measured against one standard: would we accept this work in our own home?"
+          text="We are a team of certified engineers, architects and craftsmen delivering complete Design & Build services: architecture and 3D visualisation, residential construction, renovation, project management and a Shariah-compliant investor partnership programme. Every client follows their own project on our client portal, from site photos to every bill and payment. Everything we do is measured against one standard: would we accept this work in our own home?"
           className="max-w-5xl font-display text-[clamp(1.5rem,3.2vw,2.6rem)] font-semibold leading-[1.25] tracking-tight text-ink"
         />
       </div>

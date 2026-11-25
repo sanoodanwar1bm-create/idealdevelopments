@@ -18,6 +18,7 @@ import {
   Hammer,
   Handshake,
   HardHat,
+  LockKeyhole,
   Phone,
   PencilRuler,
   ShieldCheck,
@@ -29,7 +30,7 @@ import { getLenis, scrollToHash } from "@components/SmoothScroll";
 import Logo from "@components/Logo";
 import services from "@lib/services.json";
 import projects from "@lib/projects.json";
-import { PHONE_DISPLAY, PHONE_TEL, WHATSAPP_LINK } from "@lib/site";
+import { PHONE_DISPLAY, PHONE_TEL, PORTAL_URL, WHATSAPP_LINK } from "@lib/site";
 
 const SERVICE_ICONS = {
   "project-management": ClipboardCheck,
@@ -343,6 +344,17 @@ export default function Navbar({ solid = false }) {
           {/* Desktop CTA */}
           <div className="hidden items-center gap-3 lg:flex">
             <a
+              href={PORTAL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Client login"
+              title="Client login"
+              className="flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-2 text-sm font-semibold text-ink/70 ring-1 ring-ink/10 transition-colors hover:bg-ink hover:text-white"
+            >
+              <LockKeyhole size={14} />
+              <span className="hidden xl:inline">Client login</span>
+            </a>
+            <a
               href={PHONE_TEL}
               className="hidden items-center gap-2 rounded-full px-3 py-2 text-sm font-semibold text-ink/70 transition-colors hover:text-ink xl:flex"
             >
@@ -355,7 +367,7 @@ export default function Navbar({ solid = false }) {
               rel="noopener noreferrer"
               className="btn-shine group relative flex items-center gap-2 overflow-hidden rounded-full bg-gold-500 py-2.5 pl-5 pr-2.5 text-sm font-bold text-ink shadow-[0_8px_24px_-8px_rgba(212,175,55,0.8)] transition-transform duration-300 hover:-translate-y-0.5"
             >
-              <span className="relative z-10">Get a Quote</span>
+              <span className="relative z-10 whitespace-nowrap">Get a Quote</span>
               <span className="relative z-10 grid h-7 w-7 place-items-center rounded-full bg-ink text-white transition-transform duration-500 group-hover:rotate-45">
                 <ArrowUpRight size={15} />
               </span>
@@ -461,6 +473,15 @@ export default function Navbar({ solid = false }) {
               transition={{ delay: 0.5 }}
               className="mt-3 shrink-0 space-y-3"
             >
+              <a
+                href={PORTAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between rounded-2xl border border-ink/10 bg-white px-5 py-4 font-semibold text-ink"
+              >
+                Client login
+                <LockKeyhole size={18} className="text-teal" />
+              </a>
               <a
                 href={PHONE_TEL}
                 className="flex items-center justify-between rounded-2xl border border-ink/10 bg-white px-5 py-4 font-semibold text-ink"

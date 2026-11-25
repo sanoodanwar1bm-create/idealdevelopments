@@ -3,11 +3,21 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowUpRight, BadgeCheck, LockKeyhole, Mail, MapPin, Phone } from "lucide-react";
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Logo from "@components/Logo";
 import services from "@lib/services.json";
-import { ADDRESS, EMAIL, HOURS, PHONE_DISPLAY, PHONE_TEL, WHATSAPP_CHAT, WHATSAPP_LINK } from "@lib/site";
+import {
+  ADDRESS,
+  EMAIL,
+  HOURS,
+  PHONE_DISPLAY,
+  PHONE_TEL,
+  PORTAL_URL,
+  REGISTRATIONS,
+  WHATSAPP_CHAT,
+  WHATSAPP_LINK,
+} from "@lib/site";
 
 const quickLinks = [
   { name: "Home", href: "/" },
@@ -50,6 +60,18 @@ export default function Footer() {
               Building with Ihsan, trust and Islamic values. We create spaces that stand the test of time
               while serving humanity.
             </p>
+            <ul className="mt-5 flex flex-wrap gap-2">
+              {REGISTRATIONS.map((r) => (
+                <li
+                  key={r.short}
+                  title={r.name}
+                  className="flex items-center gap-1.5 rounded-full bg-teal/[0.08] px-3 py-1.5 text-xs font-bold text-teal"
+                >
+                  <BadgeCheck size={14} />
+                  {r.short} registered
+                </li>
+              ))}
+            </ul>
             <div className="mt-6 flex gap-2">
               {socialLinks.map(({ icon: Icon, url, name }) => (
                 <a
@@ -77,6 +99,12 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a href={PORTAL_URL} target="_blank" rel="noopener noreferrer" className={`${linkClass} inline-flex items-center gap-1.5`}>
+                  <LockKeyhole size={14} className="text-teal" />
+                  Client login
+                </a>
+              </li>
             </ul>
           </div>
 
